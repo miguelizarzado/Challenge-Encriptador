@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="Recursos/security.svg">
+    <title>Challenge ONE - Encriptador de Texto</title>
+</head>
+<body>
+    <header>
+
+        <h1 class="titulo"></h1>
+
+        <button id="clear">Limpiar</button>
+
+    </header>
+
+    <section>
+
+        <div class="conTexto">
+
+            <textarea class="ingreseTexto" id="ingreseTexto" placeholder="Ingrese el texto aquí."></textarea>
+
+            <p class="exclamacion"> ¡Sólo letras minúsculas y sin acentos!</p>
+
+            <button id="encriptar">Encriptar</button>
+            <button id="desencriptar">Desencriptar</button>
+
+        </div>
+        
+    </section>
+
+    <section>
+        <div class="resultado">
+            
+            <img src="Recursos/Security-pana.svg" alt="muñeco">
+
+            <p class="ningun" id="ningun">Ningún mensaje fue<br>encontrado.</p>
+            <p class="ingresa" id="ingresa">Ingresa el texto que desea encriptar o<br>desencriptar.</p>
+        </div>
+        <div id="resultado"></div>
+
+    </section>
+
+    <footer>
+        <h5>Creado por: Miguel Lizarzado <a href="https://www.linkedin.com/in/miguellizarzado/" target="_blank"><img src="Recursos/linkedin.svg" alt="linkedin"></a> <a href="https://github.com/Miguelizarzado" target="_blank"><img src="Recursos/github.svg" alt="github"></a></h5>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

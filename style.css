@@ -1,0 +1,346 @@
+body{
+    background: rgb(192,225,181);
+    background: linear-gradient(90deg, rgba(192,225,181,1) 0%, rgba(160,211,143,1) 100%);
+    margin: 0;
+    padding: 0;
+    border: 0;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+.titulo {
+    font-family: 'Courier Prime', monospace;
+    position: absolute;
+    left: 144px;
+    top: 40px;
+    font-size: 32px;
+    font-weight: 400;
+    color: #54AE35;
+    cursor: pointer;
+}
+
+#clear {
+    position: absolute;
+    width: 106px;
+    height: 30px;
+    left: 1026px;
+    top: 60px;
+    background: #54AE35;
+    color: #C0E1B5;
+    font-size: 16px;
+    border: none;
+    border-radius: 24px;
+    box-shadow: 3px 8px 8px rgba(0, 0, 0, 0.1);
+    transition: 300ms;
+    cursor: pointer;
+    font-family: 'Courier Prime', monospace;
+}
+
+#clear:hover {
+    background: #3c7c27;
+}
+
+
+#clear:active {
+    position: absolute;
+    top: 64px;
+}
+
+.conTexto {
+    font-family: 'Courier Prime', monospace;
+    position: relative;
+    width: 475px;
+    height: 495px;
+    background-color: #F2F8EF;
+    left: 144px;
+    top: 117px;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.8);
+}
+
+.ingreseTexto {
+    font-family: 'Courier Prime', monospace;
+    position: absolute;
+    width: 390px;
+    height: 350px;
+    left: 42px;
+    top: 73px;
+    border: none;
+    font-size: 20px;
+    color: #76BF5D;
+    background: none;
+    padding: 0;
+    margin: 0;
+    resize: none;
+}
+.ingreseTexto::placeholder {
+    color: #76BF5D;
+}
+
+.ingreseTexto:focus {
+    outline: none;
+}
+
+.resultado {
+    font-family: 'Courier Prime', monospace;
+    position: absolute;
+    width: 475px;
+    height: 495px;
+    left: 659px;
+    top: 117px;
+    background: #F2F8EF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.8);
+    border-radius: 32px;
+}
+
+.resultado img {
+    position: absolute;
+    width: 310px;
+    height: 206px;
+    left: 82.5px;
+    top: 73px;
+}
+
+#resultado{
+    font-family: 'Courier Prime', monospace;
+    position: absolute;
+    width: 390px;
+    height: 350px;
+    left: 705px;
+    top: 190px;
+    white-space: break-word;
+    word-break: break-all;
+    text-align: center;
+    color: #495057;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.boton-copiar {
+    font-family: 'Courier Prime', monospace;
+    position: absolute;
+    left: 112.5px;
+    top: 350px;
+    width: 165px;
+    height: 30px;
+    background: #54AE35;
+    color: #C0E1B5;
+    font-size: 16px;
+    border-radius: 24px;
+    transition: 300ms;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0px 10px 32px -8px rgba(0, 0, 0, 0.8);
+}
+
+.boton-copiar:hover {
+    background: #76BF5D;
+}
+
+
+.boton-copiar:active {
+    position: absolute;
+    top: 354px;
+}
+
+.ningun {
+    font-family: 'Courier Prime', monospace;
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+    left: 82.5;
+    top: 289px;
+    font-weight: bold;
+    color: #343A40;
+}
+.ingresa {
+    font-family: 'Courier Prime', monospace;
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+    top: 280px;
+    color: #495057;
+}
+
+.exclamacion {
+    position: absolute;
+    width: 230px;
+    left: 65px;
+    top: 380px;
+    font-size: 9px;
+    font-family: 'Courier Prime', monospace;
+}
+.exclamacion img {
+    width: 12px;
+    padding-right:3px;
+}
+
+#encriptar {
+    font-family: 'Courier Prime', monospace;
+    position: relative;
+    left: 62px;
+    top: 422px;
+    width: 165px;
+    height: 30px;
+    background: #54AE35;
+    color: #C0E1B5;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 24px;
+    cursor: pointer;
+    transition: 400ms;
+    box-shadow: 0px 10px 32px -8px rgba(0, 0, 0, 0.8);
+}
+#encriptar:hover {
+    background-color: #3c7c27;
+}
+#encriptar:active {
+    position: absolute;
+    top: 426px;
+}
+
+#desencriptar {
+    position: absolute;
+    font-family: 'Courier Prime', monospace;
+    left: 248px;
+    top: 422px;
+    width: 165px;
+    height: 30px;
+    background: #C0E1B5;
+    color: #54AE35;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 24px;
+    cursor: pointer;
+    transition: 400ms;
+    box-shadow: 0px 10px 32px -8px rgba(0, 0, 0, 0.8);
+}
+
+#desencriptar:active {
+    position: absolute;
+    top: 426px;
+}
+
+#desencriptar:hover {
+    background-color: #9cb993;
+}
+
+footer {
+    position: absolute;
+    top:602.15px;
+    left: 540px;
+    color: #3c7c27;
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier Prime', monospace;
+}
+
+footer img {
+    border-color: #3c7c27;
+}
+
+@keyframes vibrar {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}
+
+.vibrar {
+    animation: vibrar 0.5s;
+}
+
+@media screen and (max-width:768px) {
+    .resultado {
+        left: 145px;
+        top: 650px;
+    }
+    
+    #resultado {
+        top: 700px;
+        left: 185px;
+    }
+
+    #clear {
+        left: 500px;
+        top: 30px;
+    }
+
+    footer {
+        top: 1150px ;
+        left: 253px;
+    }
+}
+
+@media screen and (max-width:375px) {
+
+    body {
+        color: #76BF5D;
+    }
+
+    .titulo {
+        left: 30px;
+        top: 65px;
+        font-size: 24px;
+    }
+
+    .conTexto{
+        left: 42px;
+        width: 310px;
+    }
+
+    .ingreseTexto{
+        width: 200px;
+    }
+
+    #encriptar {
+        width: 82px;
+        font-size: 10px;
+    }
+    
+    #desencriptar {
+        width: 82px;
+        font-size: 10px;
+        left: 160px;
+    }
+
+    .resultado {
+        left: 42px;
+        top: 650px;
+        width: 310px;
+    }
+
+    .resultado img {
+        width: 310px;
+        left: 0px;
+    }
+    
+    #resultado {
+        top: 700px;
+        left: 68px;
+        width: 250px;
+    }
+
+    .boton-copiar{
+        left: 48px;
+    }
+
+    .exclamacion {
+        font-size: 9px;
+        left: 30px;
+    }
+
+    #clear {
+        left: 140px;
+        top: 40px;
+    }
+
+    footer {
+        top: 1150px ;
+        left: 60px;
+    }
+}
