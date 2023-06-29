@@ -6,7 +6,7 @@ Este es un proyecto que hice para el programa de <b>Oracle Next Education</b>  y
 
 <img src="https://i.ibb.co/QNzj0CH/image.png" alt="Logo" border="0" width="500"> 
 
-### <a href="https://miguelizarzado.github.io/Challenge-Encriptador/">PRUÉBALO AQUÍ</a>.
+### <a href="https://miguelizarzado.github.io/Challenge-Encriptador/">PRUÉBALO AQUÍ</a>
 
 ## Instalación
 Para instalar este proyecto, solo necesitas clonar este repositorio en tu computadora usando el siguiente comando:
